@@ -3,7 +3,7 @@ layout: post
 title: "Então você quer ser um Evangelista PHP?"
 date: 2013-01-11 22:18
 comments: true
-categories: [PT-BR, Evangelista, Open-Source, PHP]
+categories: [pt-BR, Evangelista, Open-Source, PHP]
 ---
 
 ### No princípio...

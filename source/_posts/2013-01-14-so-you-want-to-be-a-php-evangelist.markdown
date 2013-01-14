@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Então você quer ser um Evangelista PHP?"
+title: "So you want to be a PHP Evangelist?"
 date: 2013-01-11 22:18
 comments: true
-categories: [EN-US, Evangelista, Open-Source, PHP]
+categories: [en-US, Evangelista, Open-Source, PHP]
 ---
 
 ### In the beginning...
