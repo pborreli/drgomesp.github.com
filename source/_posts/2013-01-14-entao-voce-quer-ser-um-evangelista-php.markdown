@@ -8,7 +8,7 @@ categories: [pt-BR, Evangelista, Open-Source, PHP]
 
 ### No princípio...
 
-Antes de divagar a respeito do assunto proposto, precisamos alinhar alguns conceitos importantes para a discussão. O entendimento se dá de forma concreta, na grande maioria das vezes, por meio da contextualização; colocando-nos em contextos diferentes, podemos entender fatos que parecem comuns de maneira isolada e única. Vamos, portanto, à definição:
+Antes de divagar a respeito do assunto proposto, precisamos alinhar alguns conceitos importantes para a discussão. Uma das principais técnicas de entendimento se dá por meio da contextualização; colocando-nos em contextos diferentes, podemos entender os fatos maneira isolada e única. Vamos, portanto, à definição, em um contexto específico:
 
 #### Qual o significado do termo "Evangelismo"?
 

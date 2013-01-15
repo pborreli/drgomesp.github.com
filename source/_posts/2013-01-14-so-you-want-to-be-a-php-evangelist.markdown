@@ -8,9 +8,9 @@ categories: [en-US, Evangelista, Open-Source, PHP]
 
 ### In the beginning...
 
-Before diving deeper into the proposed subject, we need to understand some important concepts regarding this discussion. Understandment is reached with a concrete form, most of the time, throughout contextualization; putting ourselves into different contexts is what makes it possible for us to understand usual and routine facts differently and from a unique perspective. Therefore, let us define:
+Before diving deeper into the proposed subject, we need to understand some important concepts regarding this discussion. One of the most effective techniques to reach understanding about something is contextualization; putting ourselves into different contexts is what makes it possible for us to understand the facts differently and from a unique perspective. Therefore, let us define, on a specific context:
 
-#### What is the meaning of the term "Evangelismo"?
+#### What is the meaning of the term "Evangelism"?
 
 [Wikipedia](http://en.wikipedia.org/wiki/Evangelism) gives us a full context definition of meaning:
 
