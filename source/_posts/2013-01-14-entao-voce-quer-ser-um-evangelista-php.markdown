@@ -18,7 +18,7 @@ A [Wikipedia](http://en.wikipedia.org/wiki/Evangelism) nos traz uma definição 
 
 De fato, a primeira referência que fazemos, mesmo que de forma inconsciente, ao conceito de evangelismo é de cunho religioso. Nesse contexto religioso, de fato, é que alcançamos o cume da definição da palavra; evangelizar é, efetivamente, transmitir informação a respeito de uma série de crenças para outros, com o intuito de **converter**.
 
-A ideia de ser um Evangelista PHP, portanto, é composta justamente por essa mentalidade de conversão, de discurso apaixonado, acreditado e, acima de tudo, sustendado por argumentos fortes e duradouros. Esta mentalidade é que levará pessoas não somente a aderirem ao uso da linguagem, mas também a se apaixonarem por ela, para, quem sabe, se tornarem evangelistas também.
+A ideia de ser um Evangelista PHP, portanto, é composta justamente por essa mentalidade de conversão, de discurso apaixonado, acreditado e, a cima de tudo, sustendado por argumentos fortes e duradouros. Esta mentalidade é que levará pessoas não somente a aderirem ao uso da linguagem, mas também a se apaixonarem por ela, para, quem sabe, se tornarem evangelistas também.
 
 ### Chega de conversa fiada
 

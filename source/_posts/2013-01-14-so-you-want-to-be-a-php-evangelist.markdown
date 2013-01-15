@@ -8,33 +8,33 @@ categories: [en-US, Evangelista, Open-Source, PHP]
 
 ### In the beginning...
 
-Antes de divagar a respeito do assunto proposto, precisamos alinhar alguns conceitos importantes para a discussão. O entendimento se dá de forma concreta, na grande maioria das vezes, por meio da contextualização; colocando-nos em contextos diferentes, podemos entender fatos que parecem comuns de maneira isolada e única. Vamos, portanto, à definição:
+Before diving deeper into the proposed subject, we need to understand some important concepts regarding this discussion. Understandment is reached with a concrete form, most of the time, throughout contextualization; putting ourselves into different contexts is what makes it possible for us to understand usual and routine facts differently and from a unique perspective. Therefore, let us define:
 
-#### Qual o significado do termo "Evangelismo"?
+#### What is the meaning of the term "Evangelismo"?
 
-A [Wikipedia](http://en.wikipedia.org/wiki/Evangelism) nos traz uma definição bastante completa e repleta de significado:
+[Wikipedia](http://en.wikipedia.org/wiki/Evangelism) gives us a full context definition of meaning:
 
 > Evangelism is the preaching of the Christian Gospel or the practice of relaying information about a particular set of beliefs to others with the object of conversion.
 
-De fato, a primeira referência que fazemos, mesmo que de forma inconsciente, ao conceito de evangelismo é de cunho religioso. Nesse contexto religioso, de fato, é que alcançamos o cume da definição da palavra; evangelizar é, efetivamente, transmitir informação a respeito de uma série de crenças para outros, com o intuito de **converter**.
+As a matter of fact, the first reference we made, even know unconsciously, to the evangelism concept sits on the religious context. In that context, actually, is where we reach the full and most potential definition of the word; evangelize is to, effectivelly, transfer information regarding a set of beliefes to others, with the final goal of **conversion**.
 
-A ideia de ser um Evangelista PHP, portanto, é composta justamente por essa mentalidade de conversão, de discurso apaixonado, acreditado e, acima de tudo, sustendado por argumentos fortes e duradouros. Esta mentalidade é que levará pessoas não somente a aderirem ao uso da linguagem, mas também a se apaixonarem por ela, para, quem sabe, se tornarem evangelistas também.
+The idea behind being a PHP Evangelist is, therefore, composed exactly by this conversion mentality, with passionate speech and, on top of all that, sustained by strong and durable arguments. This mentality is what will take people to not only start using the language, but also fall in love with it to, maybe someday, become evangelists was well.
 
-### Chega de conversa fiada
+### Enough of small talk
 
-Depois dessa breve contextualização - espero que tenha sido breve para você, vamos ao que interessa: quais são os primeiros passos que você deve seguir para se tornar um Evangelista PHP?
+After this brief contextualization - I sincerely hope it was brief to you, let's get started with the good stuff: what do you need to start doing to become a PHP Evangelist?
 
-#### Conhecer, como poucos, a linguagem
+#### Have a distinct knowledge about the language
 
-Uma das grandes características dos evangelistas de tecnologia é o conhecimento que possuem sobre tal. Afinal de contas, como ter argumentos sólidos em qualquer discussão técnica sem conhecer o assunto sobre o qual está sendo discutido? E já estou imaginando você perguntar:
+One of the greatest peculiarity of technology evangelists is their knowledge on the subject they talk about. After all, how can you have solid and strong arguments in any technical debate without knowing pretty well what you are debating about? And I'm already wondering you ask:
 
-> Quais fontes devo utilizar para me aprofundar na linguagem?
+> What sources should I use to get a distinct knowledge of the language?
 
-A minha resposta não poderia ser mais óbvia: [a documentação oficial](http://php.net/manual). Quando lidamos com PHP, não há melhor recurso de aprendizado e pesquisa do que a documentação oficial. Completa como poucas, atualizada constantemente e de extremo fácil acesso; faça dela o seu braço direito para desenvolver, estudar, pesquisar e até mesmo se divertir.
+My answer could not be more obvious: [the official docs](http://php.net/manual). When we deal with PHP, there is not one better learning and reaserching resource than the documentation. Complete as few others, always up-to-date and of extreme easy access; make it your main tool to evolve, study, research e even - why not - have fun.
 
-> Quais as características que irão me diferenciar frente à comunidade?
+> What will differentiate me from the usual community
 
-Muitas. Mas, a nível de exemplo, vou citar apenas algumas:
+A lot of things. But, for the sake of the example, I will tell you a few:
 
 * **[RFC](https://wiki.php.net/rfc)** (Request for Comments)
 
