@@ -38,14 +38,14 @@ A lot of things. But, for the sake of the example, I will tell you a few:
 
 * **[RFC](https://wiki.php.net/rfc)** (Request for Comments)
 
-Página centralizadora de todos os RFC's relacionados ao desenvolvimento do PHP. É lá onde você encontrará as propostas da comunidade para implementação de recursos à linguagem.
+Overview page of all RFC's related to PHP core development. That's where you will find the community feature implementation proposals for the language.
 
-Saber a quantas anda o desenvolvimento da tecnologia que você utiliza é uma grande vantagem. Quais os recursos que a comunidade deseja ver em seu *core*, quais destes serão aprovados e estarão nas próximas versões estáveis e, principalmente, que discussões tem direcionado as solicitações e aprovações.
+Knowing how the development of the technology you utilize is going can be a great advantage. Which features the community wish to see into the language *core*, which of these are actually going to be approved and be part of that *core* on the next stable versions and, mainly, what discussions have been driving those proposals and approvals.
 
-* **Contribuição**
+* **Contribution**
 
-Todos nós sabemos que, apesar de importantíssimo o conhecimento teórico sobre engenharia de software, arquitetura e modelagem de dados, a prática é que realmente separa os homens dos meninos quando se fala em *programação*.
+We all know that, despite the importance of the theoretical knowledge about software engineering, architecture and modeling, the practice is what actually separates the men from the boys when it comes to programming.
 
-Dessa forma, uma das melhores ferramentas de estudo e também para se destacar frente à comunidade é a contribuição para projetos open-source. Muitas vezes, somente acompanhar o desenvolvimento de projetos referência da linguagem já servem de apoio para conhecer recursos avançados da linguagem e desenvolvermos o nosso conhecimento técnico.
+In that sense, one of the great study tools you can use is open-source project contribution. A lot of times, just by watching the development of open-source projects that are reference for the language already helps you learn advanced features of that language, and consequently improve your technical knowledge.
 
-Se você não sabe por onde começar ou, de forma mais clara, para quais projetos contribuir, o [GitHub](http://github.com) pode lhe ajudar. Lá você poderá encontrar uma [lista dos projetos](https://github.com/languages/PHP/most_watched) feitos em PHP mais observados e conhecidos pela comunidade: frameworks, bibliotecas e até interpretadores da própria linguagem. Uma gama enorme de projetos com potencial infinito e muito espaço para contribuição.
+If you are not sure on where to start or even to what project contribute, [GitHub](http://github.com) might help you. There you can find a [list](https://github.com/languages/PHP/most_watched) of the most watched projects and known written in PHP: frameworks, libraries and even language interpreters. A huge selection of highly potential projects and a lot of room for contribution.
