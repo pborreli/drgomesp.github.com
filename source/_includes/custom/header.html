@@ -1,6 +1,13 @@
 <hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
+  <h1 class="hentry" role="title"><a href="{% if post.url %}{{ post.url }}{% else %}{{ root_url }}{% endif %}">
+    {% if page.showtitle %}{{ page.showtitle }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</a>
+  </h1>
+  {% if page.url == "/index.html" %}
+      {% if site.subtitle %}
+        <h2>{{ site.subtitle }}</h2>
+      {% endif %}
   {% endif %}
+  <p class="article-date">
+      {{ page.date | date: "%A, %d %B %Y" }}
+  </p>
 </hgroup>
