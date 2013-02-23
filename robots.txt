@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://drgomesp.github.com/sitemap.xml 
+Sitemap: http://danielribeiro.org/sitemap.xml 

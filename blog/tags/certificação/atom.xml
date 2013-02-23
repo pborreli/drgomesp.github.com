@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: certificação | Daniel Ribeiro]]></title>
-  <link href="http://drgomesp.github.com/blog/tags/certificação/atom.xml" rel="self"/>
-  <link href="http://drgomesp.github.com/"/>
-  <updated>2013-02-23T15:41:17-03:00</updated>
-  <id>http://drgomesp.github.com/</id>
+  <link href="http://danielribeiro.org/blog/tags/certificação/atom.xml" rel="self"/>
+  <link href="http://danielribeiro.org/"/>
+  <updated>2013-02-23T15:53:57-03:00</updated>
+  <id>http://danielribeiro.org/</id>
   <author>
     <name><![CDATA[Daniel Ribeiro]]></name>
     <email><![CDATA[drgomesp@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ensaio sobre a Certificação Zend PHP 5.3: a preparação, a prova e o futuro como certificado]]></title>
-    <link href="http://drgomesp.github.com/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado/"/>
+    <link href="http://danielribeiro.org/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado/"/>
     <updated>2013-02-22T17:01:00-03:00</updated>
-    <id>http://drgomesp.github.com/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado</id>
+    <id>http://danielribeiro.org/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado</id>
     <content type="html"><![CDATA[<p>Recentemente, no dia 8 de fevereiro, realizei a tão esperada prova da <a href='http://www.zend.com/services/certification/'>Certificação Zend PHP 5.3</a>. Foi uma prova extensa e bastante difícil, mas fui aprovado e me tornei um <a href='http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND021458'>Zend Certified Engineer</a>. Portanto, vou compartilhar com vocês, leitores, as minhas impressões a respeito da preparação, da prova e do futuro como membro das <a href='http://www.zend.com/en/store/education/certification/yellow-pages.php'>Yellow Pages</a>.</p>
 <!-- more -->
 <h2 id='a_preparao'>A preparação</h2>
