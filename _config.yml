@@ -32,7 +32,8 @@ source: source
 destination: public
 plugins: plugins
 code_dir: downloads/code
-category_dir: blog/categories
+category_dir: blog/tags
+category_title_prefix: 'Tag: '
 markdown: maruku
 pygments: true # default python pygments have been replaced by pygments.rb
 
