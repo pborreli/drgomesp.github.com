@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>
+            http://drgomesp.github.com/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado/
+        </loc>
+        <lastmod>2013-02-23T15:39:57-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://drgomesp.github.com/blog/arquivos/</loc>
+        <lastmod>2013-02-23T15:39:57-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://drgomesp.github.com/</loc>
+        <lastmod>2013-02-23T15:39:57-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://drgomesp.github.com/robots.txt</loc>
+        <lastmod>2013-01-13T16:00:56-02:00</lastmod>
+    </url>
+</urlset>
