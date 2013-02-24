@@ -3,7 +3,7 @@ layout: post
 title: "Ensaio sobre a Certificação Zend PHP 5.3: a preparação, a prova e o futuro como certificado"
 date: 2013-02-22 17:01
 comments: true
-categories: [php, zce, profissional, mercado]
+categories: [pt-br, php, zce, profissional, mercado]
 ---
 
 Recentemente, no dia 8 de fevereiro, realizei a tão esperada prova da [Certificação Zend PHP 5.3](http://www.zend.com/services/certification/). Foi uma prova extensa e bastante difícil, mas fui aprovado e me tornei um [Zend Certified Engineer](http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND021458). Portanto, vou compartilhar com vocês, leitores, as minhas impressões a respeito da preparação, da prova e do futuro como membro das [Yellow Pages](http://www.zend.com/en/store/education/certification/yellow-pages.php).
