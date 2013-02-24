@@ -4,7 +4,7 @@
   <title><![CDATA[Daniel Ribeiro]]></title>
   <link href="http://danielribeiro.org/atom.xml" rel="self"/>
   <link href="http://danielribeiro.org/"/>
-  <updated>2013-02-24T01:21:11-03:00</updated>
+  <updated>2013-02-24T01:35:01-03:00</updated>
   <id>http://danielribeiro.org/</id>
   <author>
     <name><![CDATA[Daniel Ribeiro]]></name>
@@ -12,6 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[An essay on the Zend PHP 5.3 Certification: The preparation, the exam and the future as a certified engineer]]></title>
+    <link href="http://danielribeiro.org/an-essay-on-the-zend-php-5-dot-3-certification-the-preparation-the-exam-and-the-future-as-a-certified-engineer/"/>
+    <updated>2013-02-24T01:23:00-03:00</updated>
+    <id>http://danielribeiro.org/an-essay-on-the-zend-php-5-dot-3-certification-the-preparation-the-exam-and-the-future-as-a-certified-engineer</id>
+    <content type="html"><![CDATA[]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ensaio sobre a Certificação Zend PHP 5.3: a preparação, a prova e o futuro como certificado]]></title>
