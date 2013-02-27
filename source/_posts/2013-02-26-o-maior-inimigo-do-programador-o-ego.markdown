@@ -12,7 +12,7 @@ Não há como negar: o inimigo número um de um programador é, sempre, seu pró
 
 ## Era uma vez
 
-Imagine que você trabalha em uma empresa pequena, onde a equipe de desenvolvedores não passa de cinco pessoas. Nessa equipe, você é um dos desenvolvedores com mais conhecimento técnico, mas não necessariamente com mais experiência. 
+Imagine que você trabalha em uma empresa pequena, onde a equipe de desenvolvedores não passa de cinco pessoas. Nessa equipe, você é um dos desenvolvedores com mais conhecimento técnico, mas não necessariamente com mais experiência.
 
 Entre seus colegas, há diversos tipos de programadores: o acomodado — que já não se interessa mais em elevar seu conhecimento, pela razão que seja, o enrolador — que passa grande parte do tempo buscando não trabalhar, o esforçado — mas que está aquém das expectativas da empresa, entre outros.
 
@@ -28,7 +28,7 @@ Nos dias de hoje — e provavelmente nos dias mais antigos também, muitos progr
 
 Será que não podemos elevar nossa autoestima inflando nosso ego com caprichos? Talvez sim. A situação se transforma em problema quando começa a afetar o seu perfil profissional e o seu comportamento, sua conduta dentro de uma empresa.
 
-[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) disse, certa vez, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas decisões? Apontando erros, então? Imagine!
+[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) disse, certa vez{% fn_ref 1 %}, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas decisões? Apontando erros, então? Imagine!
 
 Programadores são bichos do mato, com tendência ao egocentrismo e o isolamento social. Escrevem códigos já visando que seus colegas não o vejam. Até mesmo, em algumas situações, os deixam complexos só para os colegas não entenderem — e assim não terem a capacidade de apontar erros ou questionar qualquer coisa.
 
@@ -37,3 +37,7 @@ Programadores são bichos do mato, com tendência ao egocentrismo e o isolamento
 A tão esperada valorização do programador como profissional no mercado de trabalho começa por ele mesmo. Quando deixar de lado o ego e focar mais em compartilhar conhecimento — até mesmo pelas razões erradas, crescer profissionalmente em conjunto com seus colegas; ser mais altruísta em relação às suas atitudes; buscar um perfil dinâmico, pró-ativo; aí sim, começará o processo de transformação.
 
 A mudança, quase sempre, vem de dentro. No nosso caso, de dentro de nós mesmos, como pessoas e profissionais e de dentro de nossas funções, métodos e classes. Seja uma pessoa que faz diferença positiva por onde passa. Quer programadores mais profissionais ao seu lado? Comece por mudar a sí mesmo. Afinal de contas, um exemplo vale mais que mil palavras.
+
+{% footnotes %}
+#   {% fn The Clean Coder - A Code of Conduct for Professional Programmers (não lembro a página dessa citação) %}
+# {% endfootnotes%}
