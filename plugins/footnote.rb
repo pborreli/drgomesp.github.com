@@ -52,7 +52,7 @@ module Footnote
             <<-end_html
 <div class="footnotes">
 <span>
-Notas
+Notes
 </span>
     <ol>
         #{@footnotes.join}
