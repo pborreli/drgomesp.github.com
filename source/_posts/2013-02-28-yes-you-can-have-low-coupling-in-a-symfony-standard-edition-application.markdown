@@ -28,15 +28,14 @@ So the question is: does it make sense to have domain, business specific code in
 
 Let's take a look at a quick example: a simple web application, something like a website that holds both a blog and a forum for their users. Let's consider, for the sake of the example, that the forum and the blog are handled by the same users. Those users have access to both applications with the same login and password. The `User` entity would be shared by the `ForumBundle` and the `BlogBundle`, right?
 
-    Your application
-    └── src/
-        └── Vendor/
-            └── Product/
-                ├── BlogBundle/
-                ├── ForumBundle/
-                └── SiteBundle/
+    src/
+    └── Vendor/
+        └── Product/
+            ├── BlogBundle/
+            ├── ForumBundle/
+            └── SiteBundle/
 
-Now comes a simple and recurring question: where should you place the `User` entity? Inside the ForumBundle? Or the BlogBundle? Shold you create a separate bundle to hold all features related to the user, like a `UserBundle`?
+Now comes a simple and recurring question: where should you place the `User` entity? Inside the `ForumBundle`? Or the `BlogBundle`? Shold you create a separate bundle to hold all features related to the user entity, like a `UserBundle`?
 
 {% footnotes %}
     {% fn Read it as a Symfony Standard Edition application.  %}
