@@ -14,7 +14,7 @@ Não há como negar: o inimigo número um de um programador é, sempre, seu pró
 
 Imagine que você trabalha em uma empresa pequena, onde a equipe de desenvolvedores não passa de cinco pessoas. Nessa equipe, você é um dos desenvolvedores com mais conhecimento técnico, mas não necessariamente com mais experiência.
 
-Entre seus colegas, há diversos tipos de programadores: o acomodado — que já não se interessa mais em elevar seu conhecimento, pela razão que seja, o enrolador — que passa grande parte do tempo buscando não trabalhar, o esforçado — mas que está aquém das expectativas da empresa, entre outros.
+Entre seus colegas, há diversos tipos de programadores: o acomodado — que já não se interessa mais em elevar seu conhecimento, pela razão que seja; o enrolador — que passa grande parte do tempo buscando não trabalhar; o esforçado — mas que está aquém das expectativas da empresa; entre outros.
 
 Nesse meio de trabalho, independente do perfil de cada um, há pessoas com mais experiência — leia-se tempo de trabalho - ou menos que você. Há também aqueles que já estavam na empresa quando você chegou e, evidentemente, os que chegaram após a sua contratação.
 
@@ -28,7 +28,7 @@ Nos dias de hoje — e provavelmente nos dias mais antigos também, muitos progr
 
 Será que não podemos elevar nossa autoestima inflando nosso ego com caprichos? Talvez sim. A situação se transforma em problema quando começa a afetar o seu perfil profissional e o seu comportamento, sua conduta dentro de uma empresa.
 
-[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) disse, certa vez{% fn_ref 1 %}, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas decisões? Apontando erros, então? Imagine!
+[Uncle Bob](http://en.wikipedia.org/wiki/Robert_Cecil_Martin) disse, certa vez{% fn_ref 1 %}, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas sdecisões? Apontando erros, então? Imagine!
 
 Programadores são bichos do mato, com tendência ao egocentrismo e o isolamento social. Escrevem códigos já visando que seus colegas não o vejam. Até mesmo, em algumas situações, os deixam complexos só para os colegas não entenderem — e assim não terem a capacidade de apontar erros ou questionar qualquer coisa.
 
