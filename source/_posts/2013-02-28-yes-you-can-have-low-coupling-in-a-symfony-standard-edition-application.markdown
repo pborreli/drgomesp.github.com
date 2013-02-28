@@ -7,3 +7,23 @@ categories: [symfony2, php, architecture, solid]
 ---
 
 Have you ever heard someone say full-stack frameworks are bad because they force you to write high coupling code? Well, that's mostly malarkey! You can fight high coupling just by embracing SOLID principles and making smart architectural decisions.
+
+<!-- more -->
+
+I once asked people on [stackoverflow](http://stackoverflow.com) if [everything should really be a bundle](http://stackoverflow.com/questions/9999433/should-everything-really-be-a-bundle-in-symfony-2) inside of a Symfony Standard Edition application. That question was actually the trigger for me to start looking deeper into the concepts of the framework and architecture in general.
+
+## Bundles
+
+If you don't know the concept of a bundle, the [documentation](http://symfony.com/doc/current/book/page_creation.html#page-creation-bundles) explains it really well:
+
+> A bundle is simply a structured set of files within a directory that implement a single feature. You might create a BlogBundle, a ForumBundle or a bundle for user management (many of these exist already as open source bundles). Each directory contains everything related to that feature, including PHP files, templates, stylesheets, JavaScripts, tests and anything else. Every aspect of a feature exists in a bundle and every feature lives in a bundle.
+
+The thing is the concept of bundle is actually really misunderstood by the people who use Symfony as a full-stack framework{% fn_ref 1 %}. Without really understanding that concept, people tend to create bundles with lots of dependency between them and high coupling code beucase of the structure they come up with.
+
+It makes a lot of sense to create bundles to integrate third-party libraries into a Symfony full-stack application. Bundles like [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle), [KnpSnappyBundle](https://github.com/KnpLabs/KnpSnappyBundle) or [RespectValidationBundle](https://github.com/Respect/ValidationBundle) are great because they serve this specific purpose.
+
+But when you are developing a web application, the heart of that application — you can call it the domain, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.
+
+{% footnotes %}
+    {% fn Read it as a Symfony Standard Edition application.  %}
+{% endfootnotes%}
