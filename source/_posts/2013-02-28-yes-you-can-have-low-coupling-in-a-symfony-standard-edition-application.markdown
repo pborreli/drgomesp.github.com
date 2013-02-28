@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yes, you CAN have low coupling in a Symfony Standard Edition application!"
+title: "Yes, you can have low coupling in a Symfony Standard Edition application!"
 date: 2013-02-28 09:45
 comments: true
 categories: [symfony2, php, architecture, solid]
@@ -23,6 +23,20 @@ The thing is the concept of bundle is actually really misunderstood by the peopl
 It makes a lot of sense to create bundles to integrate third-party libraries into a Symfony full-stack application. Bundles like [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle), [KnpSnappyBundle](https://github.com/KnpLabs/KnpSnappyBundle) or [RespectValidationBundle](https://github.com/Respect/ValidationBundle) are great because they serve this specific purpose.
 
 But when you are developing a web application, the heart of that application — you can call it the domain, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.
+
+So the question is: does it make sense to have domain, business specific code inside generic bundles? It really depends, but generally no. Business specific code is, basically, spread throughout a [service layer](http://martinfowler.com/eaaCatalog/serviceLayer.html), a [domain model](http://martinfowler.com/eaaCatalog/domainModel.html) and some other [important architectural concepts](http://martinfowler.com/eaaCatalog/index.html). However, if you know some business code should be reused in two different applications of the same domain, maybe that's the perfect time to wrap them in bundles.
+
+Let's take a look at a quick example: a simple web application, something like a website that holds both a blog and a forum for their users. Let's consider, for the sake of the example, that the forum and the blog are handled by the same users. Those users have access to both applications with the same login and password. The `User` entity would be shared by the `ForumBundle` and the `BlogBundle`, right?
+
+    Your application
+    └── src/
+        └── Vendor/
+            └── Product/
+                ├── BlogBundle/
+                ├── ForumBundle/
+                └── SiteBundle/
+
+Now comes a simple and recurring question: where should you place the `User` entity? Inside the ForumBundle? Or the BlogBundle? Shold you create a separate bundle to hold all features related to the user, like a `UserBundle`?
 
 {% footnotes %}
     {% fn Read it as a Symfony Standard Edition application.  %}
