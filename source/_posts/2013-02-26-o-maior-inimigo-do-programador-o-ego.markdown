@@ -39,5 +39,5 @@ A tão esperada valorização do programador como profissional no mercado de tra
 A mudança, quase sempre, vem de dentro. No nosso caso, de dentro de nós mesmos, como pessoas e profissionais e de dentro de nossas funções, métodos e classes. Seja uma pessoa que faz diferença positiva por onde passa. Quer programadores mais profissionais ao seu lado? Comece por mudar a sí mesmo. Afinal de contas, um exemplo vale mais que mil palavras.
 
 {% footnotes %}
-#   {% fn The Clean Coder - A Code of Conduct for Professional Programmers (não lembro a página dessa citação) %}
-# {% endfootnotes%}
+    {% fn The Clean Coder - A Code of Conduct for Professional Programmers (não lembro a página dessa citação) %}
+{% endfootnotes%}
