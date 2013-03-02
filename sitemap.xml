@@ -4,19 +4,29 @@
         <loc>
             http://danielribeiro.org/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado/
         </loc>
-        <lastmod>2013-02-24T01:36:16-03:00</lastmod>
+        <lastmod>2013-03-01T20:30:52-03:00</lastmod>
     </url>
     <url>
         <loc>http://danielribeiro.org/o-maior-inimigo-do-programador-o-ego/</loc>
-        <lastmod>2013-02-26T18:34:35-03:00</lastmod>
+        <lastmod>2013-03-01T20:30:52-03:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://danielribeiro.org/yes-you-can-have-low-coupling-in-a-symfony-standard-edition-application/
+        </loc>
+        <lastmod>2013-03-02T20:56:02-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://danielribeiro.org/about/</loc>
+        <lastmod>2013-03-01T20:30:52-03:00</lastmod>
     </url>
     <url>
         <loc>http://danielribeiro.org/blog/archives/</loc>
-        <lastmod>2013-02-26T18:34:35-03:00</lastmod>
+        <lastmod>2013-03-02T20:56:02-03:00</lastmod>
     </url>
     <url>
         <loc>http://danielribeiro.org/</loc>
-        <lastmod>2013-02-26T18:34:35-03:00</lastmod>
+        <lastmod>2013-03-02T20:56:02-03:00</lastmod>
     </url>
     <url>
         <loc>http://danielribeiro.org/robots.txt</loc>

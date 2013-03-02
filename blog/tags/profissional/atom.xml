@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: profissional | Daniel Ribeiro]]></title>
   <link href="http://danielribeiro.org/blog/tags/profissional/atom.xml" rel="self"/>
   <link href="http://danielribeiro.org/"/>
-  <updated>2013-02-26T18:36:07-03:00</updated>
+  <updated>2013-03-02T20:57:10-03:00</updated>
   <id>http://danielribeiro.org/</id>
   <author>
     <name><![CDATA[Daniel Ribeiro]]></name>
@@ -18,13 +18,16 @@
     <link href="http://danielribeiro.org/o-maior-inimigo-do-programador-o-ego/"/>
     <updated>2013-02-26T17:57:00-03:00</updated>
     <id>http://danielribeiro.org/o-maior-inimigo-do-programador-o-ego</id>
-    <content type="html"><![CDATA[<p>Não há como negar: o inimigo número um de um programador é, sempre, seu próprio <a href='http://pt.wikipedia.org/wiki/Ego'>ego</a>. Um monstro invisível que zela pelo seu código, sua conduta e perfil profissional e suas atitudes de trabalho em equipe. Será que precisamos derrubar este monstro para, finalmente, nos tornarmos realmente profissionais?</p>
+    <content type="html"><![CDATA[<p>Não há como negar: o inimigo número um de um programador é, sempre, seu próprio <a href="http://pt.wikipedia.org/wiki/Ego">ego</a>. Um monstro invisível que zela pelo seu código, sua conduta e perfil profissional e suas atitudes de trabalho em equipe. Será que precisamos derrubar este monstro para, finalmente, nos tornarmos realmente profissionais?</p>
+
 <!-- more -->
-<h2 id='era_uma_vez'>Era uma vez</h2>
+
+
+<h2>Era uma vez</h2>
 
 <p>Imagine que você trabalha em uma empresa pequena, onde a equipe de desenvolvedores não passa de cinco pessoas. Nessa equipe, você é um dos desenvolvedores com mais conhecimento técnico, mas não necessariamente com mais experiência.</p>
 
-<p>Entre seus colegas, há diversos tipos de programadores: o acomodado — que já não se interessa mais em elevar seu conhecimento, pela razão que seja, o enrolador — que passa grande parte do tempo buscando não trabalhar, o esforçado — mas que está aquém das expectativas da empresa, entre outros.</p>
+<p>Entre seus colegas, há diversos tipos de programadores: o acomodado — que já não se interessa mais em elevar seu conhecimento, pela razão que seja; o enrolador — que passa grande parte do tempo buscando não trabalhar; o esforçado — mas que está aquém das expectativas da empresa; entre outros.</p>
 
 <p>Nesse meio de trabalho, independente do perfil de cada um, há pessoas com mais experiência — leia-se tempo de trabalho - ou menos que você. Há também aqueles que já estavam na empresa quando você chegou e, evidentemente, os que chegaram após a sua contratação.</p>
 
@@ -32,21 +35,32 @@
 
 <p>Sendo assim, você depara constantemente com o código escrito pelos seus colegas e percebe que, em alguns casos, esse código necessita urgentemente de refatoração — até mesmo de testes automatizados, para garantir seu funcionamento. Qual a sua abordagem para com o seu colega para orientá-lo com relação a isso?</p>
 
-<h2 id='todos_temos_um_ego_pra_cuidar'>Todos temos um ego pra cuidar</h2>
+<h2>Todos temos um ego pra cuidar</h2>
 
 <p>Nos dias de hoje — e provavelmente nos dias mais antigos também, muitos programadores se prejudicam por darem muita atenção aos seus egos e pouca atenção às suas atitudes como profissionais. Eu diria, até mesmo, que alguns se auto boicotam e acabam levando outros consigo para barcos em naufrágio.</p>
 
 <p>Será que não podemos elevar nossa autoestima inflando nosso ego com caprichos? Talvez sim. A situação se transforma em problema quando começa a afetar o seu perfil profissional e o seu comportamento, sua conduta dentro de uma empresa.</p>
 
-<p><a href='http://en.wikipedia.org/wiki/Robert_Cecil_Martin'>Uncle Bob</a> disse, certa vez, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas decisões? Apontando erros, então? Imagine!</p>
+<p><a href="http://en.wikipedia.org/wiki/Robert_Cecil_Martin">Uncle Bob</a> disse, certa vez<sup id='fnref:1'><a href='#fn:1' rel='footnote'>1</a></sup>, que não há coisa mais terrível para um programador do que outro programador analisando seu código. Quem dirá falando sobre ele, questionando suas sdecisões? Apontando erros, então? Imagine!</p>
 
 <p>Programadores são bichos do mato, com tendência ao egocentrismo e o isolamento social. Escrevem códigos já visando que seus colegas não o vejam. Até mesmo, em algumas situações, os deixam complexos só para os colegas não entenderem — e assim não terem a capacidade de apontar erros ou questionar qualquer coisa.</p>
 
-<h2 id='sejamos_mais_profissionais'>Sejamos mais profissionais</h2>
+<h2>Sejamos mais profissionais</h2>
 
 <p>A tão esperada valorização do programador como profissional no mercado de trabalho começa por ele mesmo. Quando deixar de lado o ego e focar mais em compartilhar conhecimento — até mesmo pelas razões erradas, crescer profissionalmente em conjunto com seus colegas; ser mais altruísta em relação às suas atitudes; buscar um perfil dinâmico, pró-ativo; aí sim, começará o processo de transformação.</p>
 
-<p>A mudança, quase sempre, vem de dentro. No nosso caso, de dentro de nós mesmos, como pessoas e profissionais e de dentro de nossas funções, métodos e classes. Seja uma pessoa que faz diferença positiva por onde passa. Quer programadores mais profissionais ao seu lado? Comece por mudar a sí mesmo. Afinal de contas, um exemplo vale mais que mil palavras.</p>]]></content>
+<p>A mudança, quase sempre, vem de dentro. No nosso caso, de dentro de nós mesmos, como pessoas e profissionais e de dentro de nossas funções, métodos e classes. Seja uma pessoa que faz diferença positiva por onde passa. Quer programadores mais profissionais ao seu lado? Comece por mudar a sí mesmo. Afinal de contas, um exemplo vale mais que mil palavras.</p>
+
+<p><div class="footnotes">
+<span>
+Notes
+</span>
+    <ol>
+        <li id='fn:1'>The Clean Coder - A Code of Conduct for Professional Programmers (não lembro a página dessa citação) <a href='#fnref:1' rev='footnote'>↩</a></li>
+    </ol>
+</div>
+</p>
+]]></content>
   </entry>
   
   <entry>
@@ -54,23 +68,26 @@
     <link href="http://danielribeiro.org/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado/"/>
     <updated>2013-02-22T17:01:00-03:00</updated>
     <id>http://danielribeiro.org/ensaio-sobre-a-certificacao-zend-php-5-dot-3-a-preparacao-a-prova-e-o-futuro-como-certificado</id>
-    <content type="html"><![CDATA[<p>Recentemente, no dia 8 de fevereiro, realizei a tão esperada prova da <a href='http://www.zend.com/services/certification/'>Certificação Zend PHP 5.3</a>. Foi uma prova extensa e bastante difícil, mas fui aprovado e me tornei um <a href='http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND021458'>Zend Certified Engineer</a>. Portanto, vou compartilhar com vocês, leitores, as minhas impressões a respeito da preparação, da prova e do futuro como membro das <a href='http://www.zend.com/en/store/education/certification/yellow-pages.php'>Yellow Pages</a>.</p>
-<!-- more -->
-<h2 id='a_preparao'>A preparação</h2>
+    <content type="html"><![CDATA[<p>Recentemente, no dia 8 de fevereiro, realizei a tão esperada prova da <a href="http://www.zend.com/services/certification/">Certificação Zend PHP 5.3</a>. Foi uma prova extensa e bastante difícil, mas fui aprovado e me tornei um <a href="http://www.zend.com/en/store/education/certification/yellow-pages.php#show-ClientCandidateID=ZEND021458">Zend Certified Engineer</a>. Portanto, vou compartilhar com vocês, leitores, as minhas impressões a respeito da preparação, da prova e do futuro como membro das <a href="http://www.zend.com/en/store/education/certification/yellow-pages.php">Yellow Pages</a>.</p>
 
-<p>Pra falar a verdade, em sua forma mais nua e crua, a minha preparação se deu, principalmente, em um estado reativo. Poucas vezes depositei tempo, de forma ativa, ao estudo dos tópicos que contemplam a prova. Quando fiz a aquisição do <a href='http://shop.zend.com/en/zend-php5-certification-voucher.html'>voucher</a>, quase um ano antes de realizar a prova, coloquei na minha cabeça que deveria criar um cronograma de estudos, fazer um planejamento para não fracassar.</p>
+<!-- more -->
+
+
+<h2>A preparação</h2>
+
+<p>Pra falar a verdade, em sua forma mais nua e crua, a minha preparação se deu, principalmente, em um estado reativo. Poucas vezes depositei tempo, de forma ativa, ao estudo dos tópicos que contemplam a prova. Quando fiz a aquisição do <a href="http://shop.zend.com/en/zend-php5-certification-voucher.html">voucher</a>, quase um ano antes de realizar a prova, coloquei na minha cabeça que deveria criar um cronograma de estudos, fazer um planejamento para não fracassar.</p>
 
 <p>Naquela época, tinha a intenção de utilizar todo o período de validade do voucher (um ano) para me preparar. Esse sentimento foi se diluindo ao passar do tempo; concentrei-me em outras atividades e passei por períodos de esquecimento — mesmo sabendo que teria que fazer a prova em algum momento.</p>
 
-<p>Porém, durante todo esse tempo, fiz parte de um grupo do Google chamado <a href='http://groups.google.com.br/group/rumo-a-certificacao-php'>Rumo à certificação PHP</a>, idealizado pelo Ari Stopassola Jr., o <a href='https://twitter.com/stopassola'>@stopassola</a> do Twitter. Nesse grupo, são lançadas diversas perguntas, quase que diariamente, do nível da prova da certificação, e os membros enviam respostas correspondentes de acordo com seus conhecimentos e opiniões. Essa foi a grande ferramenta de estudo que adotei, mesmo que indiretamente, durante todo o período de preparação.</p>
+<p>Porém, durante todo esse tempo, fiz parte de um grupo do Google chamado <a href="http://groups.google.com.br/group/rumo-a-certificacao-php">Rumo à certificação PHP</a>, idealizado pelo Ari Stopassola Jr., o <a href="https://twitter.com/stopassola">@stopassola</a> do Twitter. Nesse grupo, são lançadas diversas perguntas, quase que diariamente, do nível da prova da certificação, e os membros enviam respostas correspondentes de acordo com seus conhecimentos e opiniões. Essa foi a grande ferramenta de estudo que adotei, mesmo que indiretamente, durante todo o período de preparação.</p>
 
 <p>Como ressaltei anteriormente, sempre de maneira reativa, sem muita pretensão, enviei respostas para diversas perguntas lançadas no grupo. Em alguns momentos, discussões técnicas importantes foram levantadas por causa da discórdia entre as respostas de alguns membros. Discussões completamente sadias e extremamente importantes para a evolução do conhecimento daqueles envolvidos. De fato, o grupo me ajudou muito nessa jornada de conseguir a certificação.</p>
 
-<h2 id='a_prova'>A prova</h2>
+<h2>A prova</h2>
 
-<p>Quando as primeiras questões começaram a ser jogadas na tela à minha frente, comecei a ficar assustado. Onde estavam todas aquelas questões que pensava que poderiam aparecer, relacionadas à <a href='http://php.net/manual/pt_BR/book.spl.php'>SPL</a>, <a href='http://php.net/manual/pt_BR/book.stream.php'>streams</a> ou <a href='http://php.net/manual/en/language.oop5.php'>classes e objetos</a>? Onde estavam aquelas questões mais complexas sobre a <a href='http://php.net/manual/en/language.basic-syntax.php'>sintaxe</a> da linguagem? Realmente, não sei.</p>
+<p>Quando as primeiras questões começaram a ser jogadas na tela à minha frente, comecei a ficar assustado. Onde estavam todas aquelas questões que pensava que poderiam aparecer, relacionadas à <a href="http://php.net/manual/pt_BR/book.spl.php">SPL</a>, <a href="http://php.net/manual/pt_BR/book.stream.php">streams</a> ou <a href="http://php.net/manual/en/language.oop5.php">classes e objetos</a>? Onde estavam aquelas questões mais complexas sobre a <a href="http://php.net/manual/en/language.basic-syntax.php">sintaxe</a> da linguagem? Realmente, não sei.</p>
 
-<p>Fui bombardeado com questões atípicas dentro da minha realidade de trabalho. Muitas sobre <a href='http://php.net/manual/en/ini.list.php'>diretrizes</a> de configuração do PHP — questões &#8220;pega ratão&#8221;, com erros na escrita das diretrizes, outras mais conceituais, relacionadas aos <span>conceitos</span> de <a href='http://php.net/manual/en/security.php'>segurança</a> e <a href='http://php.net/manual/pt_BR/book.filter.php'>filtragem de dados</a> — principalmente, no contexto de banco de dados.</p>
+<p>Fui bombardeado com questões atípicas dentro da minha realidade de trabalho. Muitas sobre <a href="http://php.net/manual/en/ini.list.php">diretrizes</a> de configuração do PHP — questões "pega ratão", com erros na escrita das diretrizes, outras mais conceituais, relacionadas aos [conceitos] de <a href="http://php.net/manual/en/security.php">segurança</a> e <a href="http://php.net/manual/pt_BR/book.filter.php">filtragem de dados</a> — principalmente, no contexto de banco de dados.</p>
 
 <p>O meu problema com essas questões não era a respeito do tema — muito pelo contrário, os temas são muito relevantes e atuais, mas sim com a forma como foram elaboradas. Me parece que o pessoal que elabora a prova está mais preocupado com as pessoas que procuram decorar os nomes de funções e diretrizes do PHP ou identificar padrões absurdos e exagerados do que aquelas com o conhecimento técnico sobre a utilização desses.</p>
 
@@ -78,15 +95,16 @@
 
 <p>Por fim, fiquei muito satisfeito com o processo de revisão. Depois de um longo tempo fazendo a prova, você cai numa tela de revisão, onde vê, de maneira geral, todas as questões a que respondeu e que, eventualmente, esqueceu de marcar alguma opção — no caso das perguntas de múltila escolha. Isso foi extremamente importante para mim, que deixei umas três ou quatro questões incompletas.</p>
 
-<h2 id='o_futuro'>O futuro</h2>
+<h2>O futuro</h2>
 
 <p>Não vou dizer que minha vida profissional mudou drasticamente desde que me tornei certificado — seria demagogia de minha parte. De fato, também não passei a me ver de forma diferente tecnicamente, afinal de contas, meu conhecimento é o mesmo de quando ainda não era certificado. Assim sendo, valeu a pena? Sem sombra de dúvidas.</p>
 
 <p>O fato de ser certificado lhe garante muitos benefícios além do conhecimento adquirido para ser aprovado na prova. Um desses benefícios é passar a se destacar frente à comunidade PHP. Não sei como funciona a cabeça de cada um, mas na minha, sempre fez mais sentido ouvir a opinião de certificados do que não certificados. Não é uma questão de preconceito; simplesmente um profissional que é certificado possui — ou, pelo menos, deveria — mais conhecimento técnico sobre a linguagem.</p>
 
-<p>Outra questão são as tão faladas <a href='http://www.zend.com/en/store/education/certification/yellow-pages.php'>Yellow Pages</a> da Zend. Conheço profissionais que receberam propostas de emprego ou convocações para processos seletivos em empresas grandes — algumas do exterior — somente por estarem nas páginas amarelas, como certificados. E isso, independente da opinião de cada um, é um fato.</p>
+<p>Outra questão são as tão faladas <a href="http://www.zend.com/en/store/education/certification/yellow-pages.php">Yellow Pages</a> da Zend. Conheço profissionais que receberam propostas de emprego ou convocações para processos seletivos em empresas grandes — algumas do exterior — somente por estarem nas páginas amarelas, como certificados. E isso, independente da opinião de cada um, é um fato.</p>
 
-<p>Como será o meu futuro a partir de agora? Igual. Continuarei sendo o mesmo profissional, com o perfil de busca constante por expansão e compartilhamento de conhecimento, contribuição e referência. A única diferença agora é um selo de certificação. Isso me trará benefícios que não teria antes? Talvez. Saberei ao longo dos próximos anos. Ou, talvez, nunca.</p>]]></content>
+<p>Como será o meu futuro a partir de agora? Igual. Continuarei sendo o mesmo profissional, com o perfil de busca constante por expansão e compartilhamento de conhecimento, contribuição e referência. A única diferença agora é um selo de certificação. Isso me trará benefícios que não teria antes? Talvez. Saberei ao longo dos próximos anos. Ou, talvez, nunca.</p>
+]]></content>
   </entry>
   
 </feed>
