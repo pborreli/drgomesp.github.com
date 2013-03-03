@@ -30,7 +30,7 @@ The thing is the concept of bundle is actually really misunderstood by some peop
 
 It makes a lot of sense to create bundles to integrate third-party libraries or solve specific and common problems into a Symfony application. Bundles like [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle), [KnpSnappyBundle](https://github.com/KnpLabs/KnpSnappyBundle) or [RespectValidationBundle](https://github.com/Respect/ValidationBundle) are great because they serve this purpose.
 
-But when you are developing a web application, the heart of that application — you can call it the domain{% fn_ref 3 %}, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.
+But when you are developing a web application, the heart of that application — you can call it the domain{% fn_ref 2 %}, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.
 
 So the question is: does it make sense to have domain, business specific code inside generic bundles? It really depends, but generally no. Business specific code is, basically, spread throughout a [service layer](http://martinfowler.com/eaaCatalog/serviceLayer.html), a [domain model](http://martinfowler.com/eaaCatalog/domainModel.html) and some other [important architectural concepts](http://martinfowler.com/eaaCatalog/index.html). However, if you know some business code should be reused in two different applications of the same domain, maybe that's the perfect time to wrap them in bundles.
 
@@ -67,7 +67,7 @@ We now have a much more clean and verbose directory structure, that tells us the
 
 So that leaves us with some other questions: what kind of code is left for the bundles themselves? How can you identify what code you should place inside bundles and what code you should isolate from them? Well, the answers for those questions are actually not simple. However, we can start by thinking on the application specific stuff.
 
-The first thing that comes to mind is the [controller](http://symfony.com/doc/master/book/controller.html). The controller is nothing else than a piece of code created to solve the *delivery mechanism*{% fn_ref 2 %} problem. Its job is basically to, having been activated by a [front controller](http://martinfowler.com/eaaCatalog/frontController.html), send a response to the client - on a web application, usually as a HTML page or a JSON response. Nothing else. Really, nothing else.
+The first thing that comes to mind is the [controller](http://symfony.com/doc/master/book/controller.html). The controller is nothing else than a piece of code created to solve the *delivery mechanism*{% fn_ref 3 %} problem. Its job is basically to, having been activated by a [front controller](http://martinfowler.com/eaaCatalog/frontController.html), send a response to the client - on a web application, usually as a HTML page or a JSON response. Nothing else. Really, nothing else.
 
 Composed by a really skinny code, you most likely won't be able to reuse the controllers — and probably won't want to as well, at least in most cases. With that in mind, don't worry about them. Just keep them inside your application specific bundles — in our previous example, those would be `BlogBundle`, `ForumBundle`, `SiteBundle` — and you are fine.
 
@@ -172,8 +172,8 @@ Like I said at the beginning of this article, my intent was not to create a step
 
 {% footnotes %}
     {% fn Read it as a Symfony Standard Edition application. %}
-    {% fn Concept extracted from a Keynote from Uncle Bob (Architecture, the Lost Years). %}
     {% fn Concept extracted from Erich Evans' Domain Driven Design: Tackling Complexity in the Hearf of Software book %}
+    {% fn Concept extracted from a Keynote from Uncle Bob (Architecture, the Lost Years). %}
 {% endfootnotes%}
 
 [solid]: http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)
