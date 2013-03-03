@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: solid | Daniel Ribeiro]]></title>
   <link href="http://danielribeiro.org/blog/tags/solid/atom.xml" rel="self"/>
   <link href="http://danielribeiro.org/"/>
-  <updated>2013-03-02T20:57:10-03:00</updated>
+  <updated>2013-03-02T21:00:40-03:00</updated>
   <id>http://danielribeiro.org/</id>
   <author>
     <name><![CDATA[Daniel Ribeiro]]></name>
@@ -43,7 +43,7 @@
 
 <p>It makes a lot of sense to create bundles to integrate third-party libraries or solve specific and common problems into a Symfony application. Bundles like <a href="https://github.com/FriendsOfSymfony/FOSRestBundle">FOSRestBundle</a>, <a href="https://github.com/FriendsOfSymfony/FOSUserBundle">FOSUserBundle</a>, <a href="https://github.com/KnpLabs/KnpSnappyBundle">KnpSnappyBundle</a> or <a href="https://github.com/Respect/ValidationBundle">RespectValidationBundle</a> are great because they serve this purpose.</p>
 
-<p>But when you are developing a web application, the heart of that application — you can call it the domain<sup id='fnref:3'><a href='#fn:3' rel='footnote'>3</a></sup>, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.</p>
+<p>But when you are developing a web application, the heart of that application — you can call it the domain<sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup>, the model or whatever else — is almost always independent from the framework you are using. You need your business specific code to be portable to any framework you want to at anytime during the development of that application.</p>
 
 <p>So the question is: does it make sense to have domain, business specific code inside generic bundles? It really depends, but generally no. Business specific code is, basically, spread throughout a <a href="http://martinfowler.com/eaaCatalog/serviceLayer.html">service layer</a>, a <a href="http://martinfowler.com/eaaCatalog/domainModel.html">domain model</a> and some other <a href="http://martinfowler.com/eaaCatalog/index.html">important architectural concepts</a>. However, if you know some business code should be reused in two different applications of the same domain, maybe that's the perfect time to wrap them in bundles.</p>
 
@@ -82,7 +82,7 @@
 
 <p>So that leaves us with some other questions: what kind of code is left for the bundles themselves? How can you identify what code you should place inside bundles and what code you should isolate from them? Well, the answers for those questions are actually not simple. However, we can start by thinking on the application specific stuff.</p>
 
-<p>The first thing that comes to mind is the <a href="http://symfony.com/doc/master/book/controller.html">controller</a>. The controller is nothing else than a piece of code created to solve the <em>delivery mechanism</em><sup id='fnref:2'><a href='#fn:2' rel='footnote'>2</a></sup> problem. Its job is basically to, having been activated by a <a href="http://martinfowler.com/eaaCatalog/frontController.html">front controller</a>, send a response to the client - on a web application, usually as a HTML page or a JSON response. Nothing else. Really, nothing else.</p>
+<p>The first thing that comes to mind is the <a href="http://symfony.com/doc/master/book/controller.html">controller</a>. The controller is nothing else than a piece of code created to solve the <em>delivery mechanism</em><sup id='fnref:3'><a href='#fn:3' rel='footnote'>3</a></sup> problem. Its job is basically to, having been activated by a <a href="http://martinfowler.com/eaaCatalog/frontController.html">front controller</a>, send a response to the client - on a web application, usually as a HTML page or a JSON response. Nothing else. Really, nothing else.</p>
 
 <p>Composed by a really skinny code, you most likely won't be able to reuse the controllers — and probably won't want to as well, at least in most cases. With that in mind, don't worry about them. Just keep them inside your application specific bundles — in our previous example, those would be <code>BlogBundle</code>, <code>ForumBundle</code>, <code>SiteBundle</code> — and you are fine.</p>
 
@@ -196,7 +196,7 @@ fields:
 Notes
 </span>
     <ol>
-        <li id='fn:1'>Read it as a Symfony Standard Edition application. <a href='#fnref:1' rev='footnote'>↩</a></li><li id='fn:2'>Concept extracted from a Keynote from Uncle Bob (Architecture, the Lost Years). <a href='#fnref:2' rev='footnote'>↩</a></li><li id='fn:3'>Concept extracted from Erich Evans' Domain Driven Design: Tackling Complexity in the Hearf of Software book <a href='#fnref:3' rev='footnote'>↩</a></li>
+        <li id='fn:1'>Read it as a Symfony Standard Edition application. <a href='#fnref:1' rev='footnote'>↩</a></li><li id='fn:2'>Concept extracted from Erich Evans' Domain Driven Design: Tackling Complexity in the Hearf of Software book <a href='#fnref:2' rev='footnote'>↩</a></li><li id='fn:3'>Concept extracted from a Keynote from Uncle Bob (Architecture, the Lost Years). <a href='#fnref:3' rev='footnote'>↩</a></li>
     </ol>
 </div>
 </p>
