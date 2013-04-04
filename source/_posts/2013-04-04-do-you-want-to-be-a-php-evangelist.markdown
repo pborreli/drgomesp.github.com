@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Do you want to be a PHP Evangelist?"
+date: 2013-04-04 19:25
+comments: true
+categories: [php, evangelism, community, open-source]
+---
+Before we dive into the subject of how to become a PHP Evangelist, we need to agree on the definition of the word “evangelism”. In order to become a PHP Evangelist it is essential to really understand its meaning.
+
+<!-- more -->
+
+What does “Evangelism” mean?: Wikipedia gives us a detailed definition:
+
+> “Evangelism is the preaching of the Christian Gospel or the practice of relaying infor- mation about a particular set of beliefs to others with the object of conversion”.
+
+Parts of the above sentence actually ring true when it comes to becoming a PHP Evangelist, even if un- consciously. To evangelize is to effectively transfer information regarding one set of beliefs to another, with the final goal of converting each individual to the original belief. Isn’t that what we do when we spread the word of PHP?!
+
+The idea behind being a PHP Evangelist is for an indi- vidual to speak passionately about PHP and be able to have strong and durable arguments for PHP, if questioned about his “faith” in the technology. With this devout unbending faith in PHP it will encourage others to not only start using the language, but to also fall in love with it too. Maybe someday, those PHP begin- ners will become evangelists was well.
+
+### What do you need to start doing to become a PHP Evangelist?
+Have an advanced knowledge of the language. After all, how can you have a solid and strong argument in any technical debate without knowing what you are debating about?
+
+What sources should I use to help advance my knowledge of the language? You should definitely check out the official docs. When dealing with PHP, you will not find a better resource than the official documentation, make it your main tool to evolve, study and research every single document. You could look into the Zend Engineer Certification from Zend Technologies, which is currently the main certification for PHP. You take an exam which gives you questions on the language itself. Pass and you become a certified engineer. That will place you on the Yellow Pages of Zend Technolo- gies, a good place to be for developers to contact you to ask advice.
+
+Think out of the box. Technology evangelists are easy to spot, because they become the face of that technology within the community they work. PHP evangelists should become the reference point and a point of contact for other PHP programmers, especial- ly if they have a question about the language.
+
+How will I stand out from others in the community? There are many things you can do; one thing would be to look at all of the RFC’s (Request for Comments). Here you will have an overview page of all RFC’s related to PHP core development. That’s where you will find the community feature imple- mentation proposals for the language. So when you’re next at a community event, discuss imple- mentation proposals, offer your opinions on them. Knowing how the development of the technology you utilize is going can be a great advantage. Which features do the community wish to see into the lan- guage core? Which of these are actually going to be approved? Will they be in the next stable version? What discussions have been driving those proposals and approvals? Research.
+
+You can also attend local events related to PHP, such as conferences that are often hosted in lots of different countries. Some countries even have or- ganized groups of PHP users that host talks about relevant topics for the community. By attending events such as these or even by talking to the other attendants, you will be recognized. You could even host an event yourself!
+
+### Contribution
+
+We all know that the theoretical knowledge about software engineering is important, but it is architec- ture and modelling which actually distinguishes the professionals from the amateurs in the world of pro- gramming. By taking good design and architectural de- cisions, you can achieve a more robust code with more quality and easier maintainability.
+
+One of the great study tools you can use is open- source project contribution. Often, just by watch- ing the development of open-source projects, you learn about some of the advanced features of that language, and consequently improve your technical knowledge.
+
+Some people become evangelists just because they are leading or contributing to an impressive open-source project. That may not seem like a lot, but contributing to open source projects really makes the difference. Usually, open-source contributors have that “differential touch” that a successful company often needs in their team. They are concerned about code quality, maintainability and low coupling, for ex- ample. Usually they work outside of the box for the companies.
+
+Open-source contributors are often taken as geeks or nerds, but the truth is they are the ones that do what they do because they love PHP. They are so passion- ate that they come home from work and keep coding, researching, learning from the projects and from the community. Everyone wants to be like that or at least have someone like that in their team.
+
+If you are not sure where to start or what project to contribute to, GitHub will help you. There you can find a list of the most watched projects written in PHP: frameworks, libraries and even language inter- preters. There is a huge selection of projects, which means that there is room for contribution or two from oneself.
+
+### Be ready to lead
+
+Again, Wikipedia defines the concept of leadership for us: 
+
+> "... a process of social influence in which one person can enlist the aid and support of others in the accomplishment of a common task ..."
+
+PHP evangelists are born to lead, to form opinions, influence the opinions of others and to have followers – and haters as well. Even if you think you were not born to be a leader or just don’t want to be one, you will have to get used to public speaking if you wish to become a PHP evangelist.
+
+Leaders naturally influence the people they are sur- rounded by. This can be a good thing and a bad thing as well. Therefore leaders/evangelists should always be careful with what they say and teach.
+
+### In the end ...
+
+These are just a few tips to send you in the direction of becoming a PHP evangelist. That doesn’t mean you will be able to accomplish it easily, but if you have the passion for PHP, you’re already half way there.
