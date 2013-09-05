@@ -16,7 +16,7 @@ Please notice:
  
 And also keep in mind that:
 
-> #### This article is not a how-to type of article or a step-by-step tutorial. Its an article that presents some thougths and conceptual ideas to create better applications using a full-stack framework.
+> #### This article is not a how-to type of article or a step-by-step tutorial. Its an article that presents some thoughts and conceptual ideas to create better applications using a full-stack framework.
 
 I once asked people on [stackoverflow](http://stackoverflow.com) if [everything should really be a bundle](http://stackoverflow.com/questions/9999433/should-everything-really-be-a-bundle-in-symfony-2) inside of a [Symfony Standard Edition](https://github.com/symfony/symfony-standard) application. That question was actually the trigger for me to start looking deeper into the concepts of the framework and architecture in general.
 
@@ -26,7 +26,7 @@ If you don't know the concept of a bundle, the [documentation](http://symfony.co
 
 > A bundle is simply a structured set of files within a directory that implement a single feature. You might create a BlogBundle, a ForumBundle or a bundle for user management (many of these exist already as open source bundles). Each directory contains everything related to that feature, including PHP files, templates, stylesheets, JavaScripts, tests and anything else. Every aspect of a feature exists in a bundle and every feature lives in a bundle.
 
-The thing is the concept of bundle is actually really misunderstood by some people who use Symfony as a full-stack framework{% fn_ref 1 %}. Without really understanding that concept, people tend to create bundles with lots of dependency between them and high coupling code beucase of the structure they come up with.
+The thing is the concept of bundle is actually really misunderstood by some people who use Symfony as a full-stack framework{% fn_ref 1 %}. Without really understanding that concept, people tend to create bundles with lots of dependency between them and high coupling code because of the structure they come up with.
 
 It makes a lot of sense to create bundles to integrate third-party libraries or solve specific and common problems into a Symfony application. Bundles like [FOSRestBundle](https://github.com/FriendsOfSymfony/FOSRestBundle), [FOSUserBundle](https://github.com/FriendsOfSymfony/FOSUserBundle), [KnpSnappyBundle](https://github.com/KnpLabs/KnpSnappyBundle) or [RespectValidationBundle](https://github.com/Respect/ValidationBundle) are great because they serve this purpose.
 
@@ -43,13 +43,13 @@ Let's take a look at a quick example: a simple web application, something like a
             ├── ForumBundle/
             └── SiteBundle/
 
-Now comes a simple and recurring question: where should you place the `User` entity? Inside the `ForumBundle`? Or the `BlogBundle`? Shold you create a separate bundle to hold all features related to the user entity, like a `UserBundle`? For that problem, people come up with all kinds of solutions.
+Now comes a simple and recurring question: where should you place the `User` entity? Inside the `ForumBundle`? Or the `BlogBundle`? Should you create a separate bundle to hold all features related to the user entity, like a `UserBundle`? For that problem, people come up with all kinds of solutions.
 
 I've seen bundles created just with the purpose of holding entities, such as `EntityBundle`. I've also seen bundles that are considered to exist on a different layer in comparison to the other ones, so they come up with a `CommonBundle` or a `AppBundle`. Still, in my opinion, the problem persists. What is the problem again? Having to follow a bundle structure for a non-compliant case. Should the `User` entity really be inside a bundle? And that leads us to the directory structure of the project.
 
 ## Directory structure
 
-With the beauty of the Composer [autoloader](http://getcomposer.org/doc/01-basic-usage.md#autoloading) — or any [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible autoloader — you don't have to worry about diverting from the Symfony full-stack directory structure. Just create your directories as you see fit, place your classes in there and you are good to go. Let's take the same example from above to put this in pratice. What if we had a structure like this:
+With the beauty of the Composer [autoloader](http://getcomposer.org/doc/01-basic-usage.md#autoloading) — or any [PSR-0](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md) compatible autoloader — you don't have to worry about diverting from the Symfony full-stack directory structure. Just create your directories as you see fit, place your classes in there and you are good to go. Let's take the same example from above to put this in practice. What if we had a structure like this:
 
     src/
     └── Vendor/
@@ -75,7 +75,7 @@ The next thing that comes to mind when we think about application specific code 
 
 Templates are even more specific than controllers. Rarely you will want to reuse them — maybe their concept or structure, but not as they are originally on each page. Since Symfony handles [template inheritance](http://symfony.com/doc/2.0/book/templating.html#template-inheritance-and-layouts) pretty well, keep them inside your bundles too and they are going to be settled.
 
-With all this informatin, let's take a look at the evolution of our blog/forum/site example, starting by the directory structure with some more stuff on it.
+With all this information, let's take a look at the evolution of our blog/forum/site example, starting by the directory structure with some more stuff on it.
 
     src/
     └── Vendor/
@@ -97,13 +97,13 @@ With all this informatin, let's take a look at the evolution of our blog/forum/s
             └── Service
                 └── UserPasswordRetrievalService.php
 
-Can you see the actual improvement here? All of your business specific code, the actual heart of your application, will be isolated from default structure of the framework. All you have actually following that structure is code that is, arguably, light and disposable, the controllers and the views. The important part, the part that *really* needs to be testable, maintanable and most importantly independent from any framework or library, is isolated in its own layer.
+Can you see the actual improvement here? All of your business specific code, the actual heart of your application, will be isolated from default structure of the framework. All you have actually following that structure is code that is, arguably, light and disposable, the controllers and the views. The important part, the part that *really* needs to be testable, maintainable and most importantly independent from any framework or library, is isolated in its own layer.
 
 ## Doctrine
 
 One of the greatest things about Symfony Standard Edition is that it already comes packed with Doctrine integration, thanks to [DoctrineBundle](https://github.com/doctrine/DoctrineBundle), from the Doctrine [organization](https://github.com/doctrine). This allows you to start developing your application domain layer, entities and repositories just by following some [conventions](http://symfony.com/doc/master/book/doctrine.html).
 
-Doctrine is a really powerful persistance related set of libraries. One of its best features is the use of [annotations](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/basic-mapping.html#introduction-to-docblock-annotations) to parse documentation and transform it into metadata that can be processed later. Using Symfony, it is really common to see entities defined like this:
+Doctrine is a really powerful persistence related set of libraries. One of its best features is the use of [annotations](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/basic-mapping.html#introduction-to-docblock-annotations) to parse documentation and transform it into metadata that can be processed later. Using Symfony, it is really common to see entities defined like this:
 
 ``` php src/Vendor/Product/Entity/User.php
 <?php
@@ -136,7 +136,7 @@ class User
 }
 ```
 
-While having the flexibility of using annotations, you also contextualize information about the entities and the way they are persisted in the database inside the class definition ifselt. That is really awesome. If you don't use annotations yet, maybe check out the [presentation](http://www.slideshare.net/rdohms/annotations-in-php-confoo-2013) on them by [@rdohms](https://twitter.com/rdohms).
+While having the flexibility of using annotations, you also contextualize information about the entities and the way they are persisted in the database inside the class definition itself. That is really awesome. If you don't use annotations yet, maybe check out the [presentation](http://www.slideshare.net/rdohms/annotations-in-php-confoo-2013) on them by [@rdohms](https://twitter.com/rdohms).
 
 But everything that has advantages also have disadvantages. In my opinion — and this is really, really personal, the collateral damage annotations can cause in your code is high coupling with the library responsible for parsing them. That's why I tend not to use annotations for domain specific code — entities, repositories, services and such, but only for application specific code.
 
@@ -159,11 +159,11 @@ Vendor\Product\Entity\User:
             type: string
 ```
 
-Yes, that will make you write a considerable amount of aditional code and mantain a larger number of files, but I usually don't worry about it too much. Since you are not going to be following the default Symfony structure, you might have to check the [documentation](http://symfony.com/doc/master/reference/configuration/doctrine.html#mapping-configuration) on the Doctrine mapping configuration and see if you need any additional work to make everything flow as expected.
+Yes, that will make you write a considerable amount of additional code and maintain a larger number of files, but I usually don't worry about it too much. Since you are not going to be following the default Symfony structure, you might have to check the [documentation](http://symfony.com/doc/master/reference/configuration/doctrine.html#mapping-configuration) on the Doctrine mapping configuration and see if you need any additional work to make everything flow as expected.
 
 ## Final thoughts
 
-To be honest, if you are comfortable with writting an application using some components to solve individual and isolated problems and not a full-stack framework, you will be able to write low coupling code easier. That doesn't mean every application based on this kind of framework has high coupling code. 
+To be honest, if you are comfortable with writing an application using some components to solve individual and isolated problems and not a full-stack framework, you will be able to write low coupling code easier. That doesn't mean every application based on this kind of framework has high coupling code.
 
 The bottom line is: low coupling it's really more about how you design and structure your application architecture and less to what framework you choose to use. Symfony is extremely powerful and, at the same time, flexible enough to let you decide how to structure your code. That's awesome, right?
 
@@ -172,7 +172,7 @@ Like I said at the beginning of this article, my intent was not to create a step
 
 {% footnotes %}
     {% fn Read it as a Symfony Standard Edition application. %}
-    {% fn Concept extracted from Erich Evans' Domain Driven Design: Tackling Complexity in the Hearf of Software book %}
+    {% fn Concept extracted from Erich Evans' Domain Driven Design: Tackling Complexity in the Heart of Software book %}
     {% fn Concept extracted from a Keynote from Uncle Bob (Architecture, the Lost Years). %}
 {% endfootnotes%}
 
